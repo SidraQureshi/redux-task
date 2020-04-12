@@ -1,0 +1,236 @@
+body {
+ background-image:url("./c.jpg");
+ background-size: initial;
+}
+
+#home{ 
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14pt;
+    color: white;
+}
+#home:hover {
+    color: #C5CBE3;
+}
+
+#home:active {
+  transform: translateY(0px);
+}
+
+#btn1 {
+    background-color: #4056A1;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    float: left ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    position : right;
+  }
+  #btn2 {
+    background-color: #4056A1;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    position : right;
+  }
+  .edit {
+    background-color: #D79922;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position : right;
+  }
+  .view {
+    background-color: #F13C20;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position : right;
+  }
+  .delete {
+    background-color: #006a4e;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    position : left;
+  }
+  .center{
+    border-bottom-style : groove;
+    border-radius: 12px;
+    margin: auto;
+    width: 60%;
+    height : 100%;
+    border: 1px solid #c5cbe3;
+    padding: 30px;
+    margin-top : 30px;
+    opacity: 0.9;
+    box-shadow: 25px 30px 38px #888888;
+    background-color : #e5e5e5;
+}
+
+.tarea {
+    width: 150px;
+    word-break: break-all;
+}
+
+.center1{
+    border-bottom-style: groove;
+    border-radius: 12px;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    margin-top: 30px;
+    opacity: 0.9;
+    overflow-x: scroll;
+    box-shadow: 25px 30px 38px #888888;
+    background-color: #e5e5e5;
+    border: 1px solid #c5cbe3
+}
+
+.center3{
+    width: 100%;
+    background-color: #4056A1;
+    color: white;
+    padding: 10px 10px;
+}
+
+
+label{
+    font-family: times, serif; 
+    font-size:14pt;
+     font-style:italic;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4056A1;
+    text-shadow: 3px 2px 	#D0D0D0;
+ }
+ label[id="bb"]{
+    font-family: times, serif; 
+    font-size:10pt;
+     font-style:italic;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    text-shadow: 3px 2px 	#D0D0D0;
+ }
+ #o {
+    font-family: times, serif; 
+    font-size:14pt;
+     font-style:italic;
+    text-align: center;
+    text-transform: uppercase;
+    color: #303C6C;
+    
+ }
+ #oi {
+    font-family: times, serif; 
+    font-size:18pt;
+     font-style:italic;
+    text-align: center;
+    text-transform: uppercase;
+    color: #008999;
+    
+ }
+ table { border-collapse: collapse; }
+table tr {border-bottom:1px solid #008999; }
+ 
+.cb {
+ height : 15px;
+ width : 15px
+}
+
+ #i {
+    
+    
+    font-size:11pt;
+     
+    text-align: center;
+    
+    color: #4056A1;
+    
+ }
+ #i1 {
+    border-bottom:1px solid #008999;
+    font-size:11pt;
+     
+    text-align: center;
+    
+    color: #4056A1;
+    
+ }
+ /* this is for input fields in form*/ 
+ input{                         
+    padding: 10px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #ededed;
+    width: 100%;
+  }
+  textarea{
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #ededed;
+    width: 100%;
+  }
+ /* this is for input field in search*/ 
+  input[id= "tt"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    margin-top : 8px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 8px 8px 8px 8px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[id= "tt"]:focus {
+    width: 85%;
+  }
